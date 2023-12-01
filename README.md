@@ -39,6 +39,15 @@ For Question Classification, the same process can be applied from Sentiment Anal
 
 ### References
 
+@misc{sun2020finetune,
+      title={How to Fine-Tune BERT for Text Classification?}, 
+      author={Chi Sun and Xipeng Qiu and Yige Xu and Xuanjing Huang},
+      year={2020},
+      eprint={1905.05583},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
 Code was generated using ChatGPT; All references to ChatGPT for code is provided for each ipynb file within that file.
 
 Special Thanks to Dr. Osborne
