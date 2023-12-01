@@ -35,8 +35,10 @@ Ensure that the nlp2023v2.yml file is downloaded and used for the kernel enviror
 
 In order to run the code for Sentiment Analysis, open the Jupyter Notetbook that is available in the repository. Open the aclimdb_v1.tar.gz within the datasets folder. After extracting all of the data from the tar.gz file, ensure that all data is in the datasets folder underneath the the directory that the data exists from. For example for the IMDB database, the directory should look like "datasets/aclimdb/...". If all of the data has been downloaded correctly, next just run all of the cells in order and the code should provide outputs. There should be a cell available to extract the tar.gz file for each code file but if not extracting them does not take long.
 
-For Question Classification, the same process can be applied from Sentiment Analysis. Ensure that the Yahoo dataset is downloaded in the same fasion and has the same path. The TREC dataset is downloaded using dataset library from Hugging Face.
+For Question Classification, the same process can be applied from Sentiment Analysis. The TREC dataset is downloaded using dataset library from Hugging Face. Yahoo Dataset will need to be downloaded separately. We will provide it in a zip file with the datasets.
 
 ### References
 
 Code was generated using ChatGPT; All references to ChatGPT for code is provided for each ipynb file within that file.
+
+Special Thanks to Dr. Osborne
