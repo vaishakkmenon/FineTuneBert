@@ -20,6 +20,7 @@ Used Datasets:
 - Yahoo
 - TREC
 - AG News
+- Sogou News (tried but discarded)
 
 General code creation and testing process went along the lines of create a base model to run each dataset. Then update the model with one of the 4 fine tuning techniques. After updating the model, run the code again on the new model or processed data.
 
@@ -37,7 +38,23 @@ In order to run the code for Sentiment Analysis, open the Jupyter Notetbook that
 
 For Question Classification, the same process can be applied from Sentiment Analysis. The TREC dataset is downloaded using dataset library from Hugging Face. Yahoo Dataset will need to be downloaded separately. We will provide it in a zip file with the datasets.
 
+For Topic Classification, the same process can be applied from Sentiment Analysis, but on the AG News dataset.
+The dataset will look like "dataset/ag_news_csv/..". The cells in the project are each individual model trials.
+The first one is a base model that does not follow suit with the research paper. The second one follows the fine-tuning requirements, and the last one uses the hidden layer extraction. 
+
+Additionally you will find that I tried using the chinese dataset, but due to my skill issue I gave up on it, here's link for my chatgpt conversation for the same: 
+https://chat.openai.com/share/aa804f44-de31-4d20-b93c-f8938da735a0
+
 ### References
+
+@misc{sun2020finetune,
+      title={How to Fine-Tune BERT for Text Classification?}, 
+      author={Chi Sun and Xipeng Qiu and Yige Xu and Xuanjing Huang},
+      year={2020},
+      eprint={1905.05583},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
 Code was generated using ChatGPT; All references to ChatGPT for code is provided for each ipynb file within that file.
 
